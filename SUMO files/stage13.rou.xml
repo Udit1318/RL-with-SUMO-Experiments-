@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 05:24:51 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <!-- <vType id="Bus" length="10.00" maxSpeed="10.00" accel="1.0" decel="5.0" sigma="0.5"/> -->
+    <vType id="Car" length="4.00" maxSpeed="16.00" accel="1.0" decel="5.0" sigma="0.4"/>
+    <vType id="Truck" length="4.00" maxSpeed="6.00" accel="1.0" decel="5.0" sigma="0.6"/>
+    <!-- Routes -->
+    <route id="route02" edges="E01 E12"/>
+    <route id="route03" edges="E01 E13"/>
+    <route id="route04" edges="E01 E14"/>
+    <route id="route20" edges="E21 E10"/>
+    <route id="route23" edges="E21 E13"/>
+    <route id="route24" edges="E21 E14"/>
+    <route id="route30" edges="E31 E10"/>
+    <route id="route32" edges="E31 E12"/>
+    <route id="route34" edges="E31 E14"/>
+    <route id="route40" edges="E41 E10"/>
+    <route id="route42" edges="E41 E12"/>
+    <route id="route43" edges="E41 E13"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="flow02_1" type="Car" begin="0.00" route="route02" end="10800.00" probability="0.02"/>
+    <flow id="flow02_2" type="Truck" begin="0.00" route="route02" end="10800.00" probability="0.02800000000000000058"/>
+    <!-- <flow id="flow02_3" type="Bus" begin="0.00" route="route02" end="10800.00" probability="0.00800000000000000017"/>
+    <flow id="flow03_1" type="Bus" begin="0.00" route="route03" end="10800.00" probability="0.01799999999999999864"/> -->
+    <flow id="flow03_2" type="Car" begin="0.00" route="route03" end="10800.00" probability="0.01"/>
+    <flow id="flow03_3" type="Truck" begin="0.00" route="route03" end="10800.00" probability="0.00100000000000000002"/>
+    <flow id="flow04_1" type="Truck" begin="0.00" route="route04" end="10800.00" probability="0.0210000000000000013"/>
+    <!-- <flow id="flow04_2" type="Bus" begin="0.00" route="route04" end="10800.00" probability="0.00600000000000000012"/> -->
+    <flow id="flow04_3" type="Car" begin="0.00" route="route04" end="10800.00" probability="0.008"/>
+    <flow id="flow20_1" type="Truck" begin="0.00" route="route20" end="10800.00" probability="0.01200000000000000025"/>
+    <flow id="flow20_2" type="Car" begin="0.00" route="route20" end="10800.00" probability="0.06"/>
+    <!-- <flow id="flow20_3" type="Bus" begin="0.00" route="route20" end="10800.00" probability="0.01200000000000000025"/> -->
+    <flow id="flow23_1" type="Car" begin="0.00" route="route23" end="10800.00" probability="0.0038"/>
+    <flow id="flow23_2" type="Truck" begin="0.00" route="route23" end="10800.00" probability="0.00300000000000000006"/>
+    <!-- <flow id="flow23_3" type="Bus" begin="0.00" route="route23" end="10800.00" probability="0.01499999999999999944"/> -->
+    <!-- <flow id="flow24_1" type="Bus" begin="0.00" route="route24" end="10800.00" probability="0.00300000000000000006"/> -->
+    <flow id="flow24_2" type="Car" begin="0.00" route="route24" end="10800.00" probability="0.01400000000000000029"/>
+    <flow id="flow24_3" type="Truck" begin="0.00" route="route24" end="10800.00" probability="0.0129999999999999994"/>
+    <flow id="flow30_1" type="Car" begin="0.00" route="route30" end="10800.00" probability="0.04000000000000000042"/>
+    <!-- <flow id="flow30_2" type="Bus" begin="0.00" route="route30" end="10800.00" probability="0.02800000000000000058"/> -->
+    <flow id="flow30_3" type="Truck" begin="0.00" route="route30" end="10800.00" probability="0.00300000000000000006"/>
+    <flow id="flow32_1" type="Truck" begin="0.00" route="route32" end="10800.00" probability="0.00400000000000000008"/>
+    <!-- <flow id="flow32_2" type="Bus" begin="0.00" route="route32" end="10800.00" probability="0.01400000000000000029"/> -->
+    <flow id="flow32_3" type="Car" begin="0.00" route="route32" end="10800.00" probability="0.01600000000000000311"/>
+    <!-- <flow id="flow34_1" type="Truck" begin="0.00" route="route34" end="10800.00" probability="0.01799999999999999864"/> -->
+    <!-- <flow id="flow34_2" type="Bus" begin="0.00" route="route34" end="10800.00" probability="0.00100000000000000002"/> -->
+    <flow id="flow34_3" type="Car" begin="0.00" route="route34" end="10800.00" probability="0.0210000000000000013"/>
+    <!-- <flow id="flow40_1" type="Bus" begin="0.00" route="route40" end="10800.00" probability="0.00300000000000000006"/> -->
+    <flow id="flow40_2" type="Car" begin="0.00" route="route40" end="10800.00" probability="0.01080000000000000377"/>
+    <flow id="flow40_3" type="Truck" begin="0.00" route="route40" end="10800.00" probability="0.0129999999999999994"/>
+    <!-- <flow id="flow42_1" type="Bus" begin="0.00" route="route42" end="10800.00" probability="0.01799999999999999864"/> -->
+    <flow id="flow42_2" type="Car" begin="0.00" route="route42" end="10800.00" probability="0.01799999999999999906"/>
+    <flow id="flow42_3" type="Truck" begin="0.00" route="route42" end="10800.00" probability="0.01799999999999999864"/>
+    <!-- <flow id="flow43_1" type="Bus" begin="0.00" route="route43" end="10800.00" probability="0.067000000000000004"/> -->
+    <flow id="flow43_2" type="Car" begin="0.00" route="route43" end="10800.00" probability="0.02799999999999999864"/>
+    <flow id="flow43_3" type="Truck" begin="0.00" route="route43" end="10800.00" probability="0.01400000000000000029"/>
+</routes>

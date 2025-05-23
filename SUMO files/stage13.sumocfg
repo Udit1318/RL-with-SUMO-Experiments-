@@ -1,0 +1,19 @@
+<configuration>
+
+    <input>
+        <net-file value="stage13.net.xml"/>
+        <route-files value="stage13.rou.xml"/>
+        <time-to-teleport value="-1"/>
+
+        <!--additional-files value="TLS.add.xml"/ --> <!-- Additional file -->
+    </input>
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="10800"/>
+    </time>
+
+</configuration>
+
